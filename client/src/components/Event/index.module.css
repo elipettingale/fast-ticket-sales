@@ -1,0 +1,31 @@
+.Event {
+  @apply bg-grey-100 rounded-lg p-4 cursor-pointer mb-4 flex justify-between items-end;
+
+  &:hover:not(.Event--hasStatus) {
+    @apply bg-green;
+  }
+
+  &--hasStatus {
+    @apply opacity-50 bg-[#ffd8d8];
+  }
+}
+
+.Title {
+  @apply font-bold;
+}
+
+.Date {
+  @apply text-orange mb-4;
+}
+
+.Price {
+  @apply text-2xl;
+}
+
+.TicketsRemaining {
+  @apply italic text-sm;
+}
+
+.Status {
+  @apply text-sm text-red font-bold;
+}

@@ -1,0 +1,51 @@
+[{
+  "_id": {
+    "$oid": "659f97503ef8a59155033177"
+  },
+  "name": "Lorem Ipsum",
+  "price": 3500,
+  "date": "30th March 2024",
+  "available": 120,
+  "department_code": "DC_01",
+  "nominal_code": "NC_01"
+},{
+  "_id": {
+    "$oid": "659f979a3ef8a59155033179"
+  },
+  "name": "Dolor Sit Amet",
+  "price": 3500,
+  "date": "03rd April 2024",
+  "available": 100,
+  "department_code": "DC_02",
+  "nominal_code": "NC_01"
+},{
+  "_id": {
+    "$oid": "659f979a3ef8a5915503317a"
+  },
+  "name": "Consectetur Adipiscing",
+  "price": 3500,
+  "date": "13th April 2024",
+  "available": 120,
+  "department_code": "DC_03",
+  "nominal_code": "NC_01"
+},{
+  "_id": {
+    "$oid": "659f97bb3ef8a5915503317c"
+  },
+  "name": "Sed Do Eiusmod",
+  "price": 3500,
+  "date": "20th April 2024",
+  "available": 100,
+  "department_code": "DC_04",
+  "nominal_code": "NC_01"
+},{
+  "_id": {
+    "$oid": "659f97d93ef8a5915503317f"
+  },
+  "name": "Tempor Incididunt",
+  "price": 3500,
+  "date": "24th April 2024",
+  "available": 100,
+  "department_code": "DC_05",
+  "nominal_code": "NC_01"
+}]

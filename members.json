@@ -1,0 +1,24 @@
+[{
+  "_id": {
+    "$oid": "65e2e34920a331f9cd17cc1a"
+  },
+  "reference": "IM1",
+  "first_name": "Dave",
+  "last_name": "Test",
+  "password": "$2y$10$uakO1oG.gMKqNsyDclPzpeBhxjqRkU4zj7P69mIRLw0tS4e5hjKfK",
+  "email": "dave@test.com",
+  "contact_number": "01234567890",
+  "date_of_birth": {
+    "day": "02",
+    "month": "08",
+    "year": "1990"
+  },
+  "address": {
+    "line_1": "22 Test Lane",
+    "line_2": "",
+    "town": "Testton",
+    "county": "Testershire",
+    "postcode": "TE00 0ST"
+  },
+  "has_expired": false
+}]

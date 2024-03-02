@@ -1,0 +1,33 @@
+.Wrapper {
+  @apply flex gap-12;
+
+  > div {
+    @apply w-[50%];
+  }
+}
+
+.Icon {
+  @apply w-[50px] h-[50px] mr-2;
+}
+
+.Event {
+  @apply flex justify-between bg-grey-100 p-2 rounded mb-2;
+
+  &--isSoldOut {
+    @apply text-red;
+  }
+}
+
+.RemoveButton {
+  @apply cursor-pointer;
+
+  svg {
+    @apply stroke-black;
+  }
+
+  &:hover {
+    svg {
+      @apply stroke-orange-600;
+    }
+  }
+}

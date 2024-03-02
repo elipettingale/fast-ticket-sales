@@ -1,0 +1,13 @@
+.Wrapper {
+  > label {
+    @apply block font-bold mb-1;
+  }
+}
+
+.Selects {
+  @apply flex gap-2;
+}
+
+.Select {
+  @apply block w-full rounded border border-black px-3 py-2 h-[42px];
+}

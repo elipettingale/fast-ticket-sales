@@ -1,0 +1,11 @@
+.Wrapper {
+  @apply block;
+
+  > span {
+    @apply block font-bold mb-1;
+  }
+
+  > input {
+    @apply block w-full rounded border border-black px-3 py-2;
+  }
+}

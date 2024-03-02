@@ -1,0 +1,9 @@
+.Wrapper {
+  @apply max-w-[500px];
+}
+
+.Form {
+  > *:not(:last-child) {
+    @apply mb-4;
+  }
+}

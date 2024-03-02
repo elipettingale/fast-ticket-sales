@@ -1,0 +1,7 @@
+.Row {
+  @apply flex gap-4 mb-2;
+
+  > * {
+    @apply w-full;
+  }
+}

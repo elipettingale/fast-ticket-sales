@@ -1,0 +1,11 @@
+.ButtonLink {
+  @apply inline-block bg-orange border border-orange text-white py-2 px-8 font-bold rounded cursor-pointer;
+
+  &:disabled {
+    @apply opacity-50;
+  }
+
+  &:hover:not(:disabled) {
+    @apply bg-orange-400 border-orange-400;
+  }
+}
